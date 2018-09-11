@@ -1,0 +1,40 @@
+{
+    "name": "ournameismud/categorise",
+    "description": "Field type to select categories from across multiple category sources",
+    "type": "craft-plugin",
+    "version": "0.0.1",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "categorise"
+    ],
+    "support": {
+        "docs": "https://github.com/ournameismud/categorise/blob/master/README.md",
+        "issues": "https://github.com/ournameismud/categorise/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "@cole007",
+            "homepage": "http://ournameismud.co.uk/"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "ournameismud\\categorise\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Categorise",
+        "handle": "categorise",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/ournameismud/categorise/master/CHANGELOG.md",
+        "class": "ournameismud\\categorise\\Categorise"
+    }
+}
